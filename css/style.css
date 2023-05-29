@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+}
+
+.inputBox {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-around; */
+    margin: 5px 0;
+}
+
+
+.leassonName {}
+
+.scoreNumber {}
+
+input {
+    padding: 3px;
+    margin-top: 5px;
+}
+
+input,
+button {
+    align-self: flex-start;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: orange;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+}
+
+.outpoutBux {
+    grid-column: 2/5;
+    grid-row: 4/5;
+    align-self: flex-start;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="css/style.css">
+<title>نمایش اعداد و میانگین آن‌ها</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="inputBox">
+      <h2>نمایش اعداد و میانگین آن‌ها</h2>
+      <div class="wrapper">
+        <div class="leassonName">
+          <label for="lesson1">نام درس ۱:</label>
+           <input type="text" id="lesson1" /><br />
+          <label for="lesson2">نام درس ۲:</label>
+          <input type="text" id="lesson2" /><br />
+          <label for="lesson3">نام درس ۳:</label>
+          <input type="text" id="lesson3" /><br />
+        </div>
+        <div class="scoreNumber">
+          <label for="score1">نمره درس ۱:</label>
+          <input type="number" min="0" id="score1" /><br />
+          <label for="score2">نمره درس ۲:</label>
+          <input type="number" min="0" id="score2" /><br />
+          <label for="score3">نمره درس ۳:</label>
+          <input type="number" min="0" id="score3" /><br />
+        </div>
+      </div>
+      <button id="btn" onclick="showGrades()">نمایش نمرات</button>
+    </div>
+    <div class="outpoutBux">
+      <h2>مشاهده نتیجه</h2>
+      <div id="grades"></div>
+      <div id="average"></div>
+    </div>
+  </div>
+  <script src="script/script.js"></script>
+</body>
+
+</html>
